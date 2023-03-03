@@ -1,0 +1,22 @@
+.wrapper {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.star {
+    font-size: 40px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.selected {
+    color: yellow;
+}
+
+.hoverStar {
+    color: yellow;
+    opacity: 0.5;
+}
